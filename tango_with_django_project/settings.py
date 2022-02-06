@@ -33,6 +33,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+# chapter 9 user authentication
+LOGIN_URL = 'rango:login'
+
 
 # Application definition
 
