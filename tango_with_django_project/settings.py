@@ -125,6 +125,11 @@ USE_L10N = True
 USE_TZ = True
 
 
+# chapter 10.7 sessions 
+SESSION_EXPIRE_AT_BROWSER_CLOSE = False
+SESSION_COOKIE_AGE = 1209600
+
+
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
